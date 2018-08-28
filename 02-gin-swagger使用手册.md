@@ -31,6 +31,5 @@ import "github.com/swaggo/gin-swagger/swaggerFiles" // swagger embed files
 ```
 ---
 #### gin-swagger典型的例子
-```markdown
 [swaggo+gin](https://github.com/swaggo/swag/tree/master/example)
-```
+[gin-swagger-example](https://github.com/swaggo/gin-swagger/tree/master/example)

@@ -10,13 +10,12 @@ Swag将Go注释转换为Swagger Documentation 2.0。我们为流行的Go Web(gin
 ```
 ---
 #### swaggo 例子
+例子：
 [swaggo+gin](https://github.com/swaggo/swag/tree/master/example)
 ---
 #### swaggo 入门
-1.在API源代码中添加注释
-```markdown
-[请参阅声明注释格式](https://github.com/swaggo/swag#general-api-info)
-```
+1.在API源代码中添加注释  
+[请参阅声明注释格式](https://github.com/swaggo/swag#general-api-info)  
 2.下载swag
 ```markdown
 go get -u -v github.com/swaggo/swag/cmd/swag
