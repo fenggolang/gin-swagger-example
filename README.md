@@ -5,7 +5,7 @@
 ---
 
 #### 安装gin-swagger
-如果下载包有问题就去这个网站下载打包解压安装　　　　
+如果下载包有问题就去这个网站下载打包解压安装  　　　　
 https://www.golangtc.com/download/package
 ```markdown
 # 需要手动clone到$GOPATH/src/golang.org/x目录
