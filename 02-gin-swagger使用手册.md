@@ -23,8 +23,10 @@ go get -u -v github.com/swaggo/swag/cmd/swag
 # 3. 在你的项目根目录下运行swag初始化命令,注意根目录下需要有main.go文件，swag将解析注释和生成必要的文件(生成docs文件夹和docs/doc.go文件)
 swag init
 # 4. 下载gin-swagger
-go get -u github.com/swaggo/gin-swagger
-go get -u github.com/swaggo/gin-swagger/swaggerFiles
+go get -u -v github.com/swaggo/gin-swagger
+go get -u -v github.com/swaggo/gin-swagger/swaggerFiles
+
+go get -u -v github.com/satori/go.uuid
 # 然后在你的代码中导入如下头文件行
 import "github.com/swaggo/gin-swagger" // gin-swagger middleware
 import "github.com/swaggo/gin-swagger/swaggerFiles" // swagger embed files
