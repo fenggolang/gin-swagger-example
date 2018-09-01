@@ -20,8 +20,14 @@ Swag是一个框架，而gin-swagger是一个基于Swag框架写的一个中间�
 声明注释格式:https://swaggo.github.io/swaggo.io/declarative_comments_format/
 # 2. 下载Swag
 go get -u -v github.com/swaggo/swag/cmd/swag
-# 3. 在你的项目根目录下运行swag初始化命令,注意根目录下需要有main.go文件，swag将解析注释和生成必要的文件(生成docs文件夹和docs/doc.go文件)
+#3. 在你的项目根目录下运行swag初始化命令,注意根目录下需要有main.go文件，swag将解析注释和生成必要的文件(生成docs文件夹和docs/doc.go文件)
+```go
+// 初始化生成docs文档和目录
 swag init
+// main.go文件导入下面docs目录
+_ "gin-swagger-example/celler/docs"
+
+```
 # 4. 下载gin-swagger
 go get -u -v github.com/swaggo/gin-swagger
 go get -u -v github.com/swaggo/gin-swagger/swaggerFiles
@@ -32,6 +38,7 @@ import "github.com/swaggo/gin-swagger" // gin-swagger middleware
 import "github.com/swaggo/gin-swagger/swaggerFiles" // swagger embed files
 ```
 ---
+
 #### gin-swagger典型的例子
-[swaggo+gin](https://github.com/swaggo/swag/tree/master/example)
+[swaggo+gin](https://github.com/swaggo/swag/tree/master/example)  
 [gin-swagger-example](https://github.com/swaggo/gin-swagger/tree/master/example)
