@@ -9,9 +9,9 @@ https://github.com/swaggo/gin-swagger
 Swag将Go注释转换为Swagger Documentation 2.0。我们为流行的Go Web(gin、echo、net/http)框
 架创建了各种插件。这允许您快速与现有的Go项目集成（使用Swagger UI）。
 # gin-swagger
-gin-swagger是一个使用Swagger 2.0自动生成RESTful API文档的middleware。
+gin-swagger是一个使用Swagger 2.0自动生成RESTful API文档的gin middleware。
 
-Swag是一个框架，而gin-swagger是一个基于Swag框架写的一个中间件(也可以叫做插件？)
+Swag是一个框架，而gin-swagger是一个基于Swag框架写的一个中间件(也可以叫做插件)
 ```
 ---
 #### gin-swagger　用法

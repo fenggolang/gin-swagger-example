@@ -12,7 +12,7 @@ type Account struct {
 }
 
 var (
-	//ErrNameInvalid = errors.New("name is empty")
+	//ErrNameInvalid =Werrors.New("name is empty")
 	ErrNameInvalid = fmt.Errorf("name is empty")
 )
 
